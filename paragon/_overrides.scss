@@ -1,2 +1,20 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.bg-primary {
+  background-color: #452c56 !important;
+}
+
+.btn-brand {
+  background-color: #452c56;  !important;
+  border-color: #9d0054;
+  color: #fff;
+}
+
+.text-gray-400 {
+  color: #2A4949 !important;
+}
+
+.sequence-navigation .btn.complete {
+  background-color: #eef7e5;
+  color: #178253;
+}
